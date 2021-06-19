@@ -1,0 +1,12 @@
+$accent-color-1: #ffc593;
+$accent-color-2: #bc7198;
+$accent-color-3: #5a77ff;
+
+$main-accent: linear-gradient(
+  to top right,
+  $accent-color-1,
+  $accent-color-2,
+  $accent-color-3
+);
+
+$light-gray: #dfdfdf;

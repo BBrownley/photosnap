@@ -1,0 +1,34 @@
+.btn-1 {
+  @include btn-base;
+  background-color: black;
+  color: white;
+  transition: 0.5s all ease;
+  :hover {
+    background-color: $light-gray;
+    color: black;
+  }
+}
+
+.btn-2 {
+  color: black;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-3 {
+  @include btn-base;
+  background-color: white;
+  color: black;
+  transition: 0.5s all ease;
+  :hover {
+    background-color: $light-gray;
+  }
+}
+
+.btn-4 {
+  color: white;
+  &:hover {
+    text-decoration: underline;
+  }
+}
