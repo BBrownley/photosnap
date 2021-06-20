@@ -3,6 +3,13 @@ $accent-color-2: #bc7198;
 $accent-color-3: #5a77ff;
 
 $main-accent: linear-gradient(
+  to top,
+  $accent-color-1,
+  $accent-color-2,
+  $accent-color-3
+);
+
+$main-accent-tr: linear-gradient(
   to top right,
   $accent-color-1,
   $accent-color-2,

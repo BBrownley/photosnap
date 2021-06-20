@@ -10,7 +10,12 @@
 }
 
 .btn-2 {
+  @include btn-base;
+  width: auto;
+  background-color: transparent;
   color: black;
+  padding: 0;
+  height: auto;
   &:hover {
     text-decoration: underline;
   }
@@ -27,8 +32,20 @@
 }
 
 .btn-4 {
+  @include btn-base;
+  width: auto;
+  background-color: transparent;
   color: white;
+  position: relative;
+  padding: 0;
+  height: auto;
+  .svg-arrow {
+    filter: invert(1);
+    position: absolute;
+    right: -4rem;
+  }
   &:hover {
-    text-decoration: underline;
+    -webkit-box-shadow: 0px 1px 0px 0px #ffffff;
+    box-shadow: 0px 1px 0px 0px #ffffff;
   }
 }

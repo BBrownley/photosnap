@@ -3,6 +3,8 @@ h2[class*="large"] {
   font-size: 2.5rem;
   line-height: 3rem;
   letter-spacing: 0.26rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2:not(.large) {
