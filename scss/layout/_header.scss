@@ -5,6 +5,7 @@
   padding: 1rem 0;
   margin: 0 auto;
   max-width: 1920px;
+  position: relative;
   .branding-img {
     background-image: url("../../assets/shared/desktop/logo.svg");
     background-repeat: no-repeat;
@@ -27,6 +28,10 @@
     }
   }
 
+  .mobile-menu {
+    position: absolute;
+  }
+
   @media (max-width: 1300px) {
     justify-content: space-between;
     padding: 1rem 2.5rem;
@@ -41,16 +46,41 @@
     .menu-icon {
       display: inline-block;
 
-      &.closed {
-        height: 6px;
-        width: 20px;
-        background-image: url("../../assets/shared/mobile/menu.svg");
-      }
+      height: 6px;
+      width: 20px;
+      background-image: url("../../assets/shared/mobile/menu.svg");
+
       &.opened {
         width: 16px;
         height: 15px;
         background-image: url("../../assets/shared/mobile/close.svg");
       }
+    }
+  }
+}
+
+.mobile-menu {
+  display: none;
+  text-align: center;
+  padding: 2.25rem;
+  .navigation ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid $light-gray;
+    margin-bottom: 1.375rem;
+    li {
+      margin-bottom: 1.75rem;
+    }
+  }
+  button {
+    width: 100%;
+  }
+  @media (max-width: 750px) {
+    &.opened {
+      display: block;
     }
   }
 }
