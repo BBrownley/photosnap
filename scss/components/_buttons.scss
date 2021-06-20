@@ -16,6 +16,11 @@
   color: black;
   padding: 0;
   height: auto;
+  position: relative;
+  .svg-arrow {
+    position: absolute;
+    right: -4rem;
+  }
   &:hover {
     text-decoration: underline;
   }
