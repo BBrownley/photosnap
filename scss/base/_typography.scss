@@ -29,3 +29,13 @@ body {
   line-height: 1.5625rem;
   letter-spacing: 0;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+  transition: 0.25s color ease-out;
+  &:hover {
+    color: $gray;
+  }
+}

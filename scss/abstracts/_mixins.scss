@@ -8,4 +8,8 @@
   letter-spacing: 0.125rem;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    cursor: pointer;
+  }
 }

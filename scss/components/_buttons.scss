@@ -2,8 +2,8 @@
   @include btn-base;
   background-color: black;
   color: white;
-  transition: 0.5s all ease;
-  :hover {
+  transition: 0.35s all ease;
+  &:hover {
     background-color: $light-gray;
     color: black;
   }
@@ -20,8 +20,8 @@
   @include btn-base;
   background-color: white;
   color: black;
-  transition: 0.5s all ease;
-  :hover {
+  transition: 0.35s all ease;
+  &:hover {
     background-color: $light-gray;
   }
 }
