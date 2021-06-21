@@ -16,5 +16,14 @@ $main-accent-tr: linear-gradient(
   $accent-color-3
 );
 
+$main-accent-r: linear-gradient(
+  to right,
+  $accent-color-1,
+  $accent-color-2,
+  $accent-color-3
+);
+
 $light-gray: #dfdfdf;
 $gray: #b2b2b2;
+
+$img-darkener: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
