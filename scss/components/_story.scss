@@ -22,6 +22,11 @@
     right: 0;
     padding: 0 2.5rem 2.5rem 2.5rem;
     color: white;
+    .story-date {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0.5rem;
+    }
     h3 {
       font-weight: bold;
     }
@@ -62,6 +67,66 @@
   &.architecturals {
     background: $img-darkener,
       url("../../assets/stories/desktop/architecturals.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.world-tour {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/world-tour.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.unforeseen-corners {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/unforeseen-corners.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.king-on-africa {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/king-on-africa.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.trip-to-nowhere {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/trip-to-nowhere.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.rage-of-the-sea {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/rage-of-the-sea.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.running-free {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/running-free.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.behind-the-waves {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/behind-the-waves.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.calm-waters {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/calm-waters.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.milky-way {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/milky-way.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.dark-forest {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/dark-forest.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.somwarpet {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/somwarpet.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.land-of-dreams {
+    background: $img-darkener,
+      url("../../assets/stories/desktop/land-of-dreams.jpg") no-repeat;
     background-size: cover;
   }
 }
