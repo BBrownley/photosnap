@@ -136,3 +136,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  max-width: 2560px;
+  margin: 0 auto;
+}
