@@ -1,0 +1,73 @@
+.footer {
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+    text-transform: uppercase;
+    &:hover {
+      color: #4d4d4d;
+    }
+  }
+  .secondary-footer-nav {
+    display: none;
+  }
+  .footer-container {
+    display: flex;
+    padding: 4rem 10rem;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 17rem;
+
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .branding-img {
+        position: relative;
+        &__inner {
+          filter: invert(50%) sepia(8%) saturate(0%) hue-rotate(115deg)
+            brightness(250%) contrast(100%);
+          position: absolute;
+          top: 0;
+          left: 1.5rem;
+          right: 0;
+          bottom: 0;
+          background-position-x: -1.5rem;
+        }
+      }
+      .socials {
+        display: flex;
+        justify-content: space-between;
+        img {
+          filter: invert(50%) sepia(8%) saturate(0%) hue-rotate(115deg)
+            brightness(250%) contrast(100%);
+          transition: 0.25s;
+          &:hover {
+            filter: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .main-footer-nav {
+      margin-left: 6.5rem;
+      display: flex;
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+    .invite-copyright {
+      margin-left: auto;
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: space-between;
+      color: #808080;
+      .btn-4 {
+        margin-bottom: 6rem;
+        margin-left: 4rem;
+      }
+    }
+  }
+}
