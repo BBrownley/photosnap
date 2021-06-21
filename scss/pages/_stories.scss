@@ -1,0 +1,56 @@
+.featured-story {
+  position: absolute;
+  top: 50%;
+  left: 7.75rem;
+  transform: translateY(-50%);
+  max-width: 387px;
+  > *:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+  h4 {
+    text-transform: uppercase;
+  }
+}
+
+.featured-story-wrapper {
+  padding-bottom: 45%;
+  position: relative;
+  background: url("../../assets/stories/desktop/moon-of-appalacia.jpg")
+    no-repeat;
+  background-size: cover;
+  color: white;
+
+  @media (max-width: 1200px) {
+    background: url("../../assets/stories/tablet/moon-of-appalacia.jpg")
+      no-repeat;
+    background-size: cover;
+    padding-bottom: 84%;
+    .featured-story {
+      left: 2.5rem;
+    }
+  }
+  @media (max-width: 700px) {
+    background: url("../../assets/stories/mobile/moon-of-appalacia.jpg")
+      no-repeat;
+    background-size: cover;
+    padding-bottom: 84%;
+    .featured-story {
+      display: none;
+    }
+  }
+}
+
+.featured-story--mobile {
+  display: none;
+  @media (max-width: 700px) {
+    display: block;
+    position: relative;
+    transform: none;
+    background: black;
+    color: white;
+    max-width: 100%;
+    width: 100%;
+    left: auto;
+    padding: 3.25rem 2rem;
+  }
+}
