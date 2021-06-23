@@ -67,11 +67,11 @@
       <section class="prices">
         <div class="wrapper">
           <div class="toggle-container">
-            <p class="active">Monthly</p>
+            <p class="active" id="monthly">Monthly</p>
             <div class="toggle">
-              <div class="circle monthly"></div>
+              <div class="circle"></div>
             </div>
-            <p>Yearly</p>
+            <p id="yearly">Yearly</p>
           </div>
         </div>
         <div class="pricing-cards">
@@ -87,8 +87,8 @@
               <button class="btn-1 btn--tablet">Pick plan</button>
             </div>
             <div class="card__price">
-              <h2 class="large">$19.00</h2>
-              <p>per month</p>
+              <h2 class="large" id="basic-price">$19.00</h2>
+              <p>per <span class="pricing-timespan">month</span></p>
             </div>
             <button class="btn-1 btn--main">Pick plan</button>
           </div>
@@ -104,8 +104,8 @@
               <button class="btn-3 btn--tablet">Pick plan</button>
             </div>
             <div class="card__price">
-              <h2 class="large">$39.00</h2>
-              <p>per month</p>
+              <h2 class="large" id="pro-price">$39.00</h2>
+              <p>per <span class="pricing-timespan">month</span></p>
             </div>
             <button class="btn-3 btn--main">Pick plan</button>
           </div>
@@ -121,8 +121,8 @@
               <button class="btn-1 btn--tablet">Pick plan</button>
             </div>
             <div class="card__price">
-              <h2 class="large">$99.00</h2>
-              <p>per month</p>
+              <h2 class="large" id="business-price">$99.00</h2>
+              <p>per <span class="pricing-timespan">month</span></p>
             </div>
             <button class="btn-1 btn--main">Pick plan</button>
           </div>
@@ -207,4 +207,5 @@
       </div>
     </footer>
   </body>
+  <script src="./script.js"></script>
 </html>
