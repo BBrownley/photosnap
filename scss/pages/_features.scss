@@ -14,11 +14,13 @@
   }
   @media (max-width: 680px) {
     padding-bottom: 0;
-    margin-bottom: 31.75rem;
+    .info-wrapper {
+      margin-top: 26rem;
+    }
     .features-hero-img {
       position: absolute;
-      bottom: -24rem;
-      height: 24rem;
+      top: 0;
+      height: 26rem;
 
       left: 0;
       right: 0;
