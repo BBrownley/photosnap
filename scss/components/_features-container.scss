@@ -3,6 +3,17 @@
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1920px;
   margin: 7.5rem auto;
+
+  @media (max-width: 1550px) {
+    grid-row-gap: 4rem;
+  }
+
+  @media (max-width: 1300px) {
+    grid-row-gap: 6rem;
+  }
+  @media (max-width: 1000px) {
+    grid-row-gap: 8rem;
+  }
   @media (max-width: 930px) {
     grid-template-columns: 1fr;
     max-width: 600px;
