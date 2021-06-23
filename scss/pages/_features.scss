@@ -1,0 +1,30 @@
+.features-hero {
+  padding-bottom: 34%;
+  position: relative;
+  .features-hero-img {
+    background: url("../../assets/features/desktop/hero.jpg");
+    background-size: cover;
+  }
+  @media (max-width: 1150px) {
+    padding-bottom: 59%;
+    .features-hero-img {
+      background: url("../../assets/features/tablet/hero.jpg");
+      background-size: cover;
+    }
+  }
+  @media (max-width: 680px) {
+    padding-bottom: 0;
+    margin-bottom: 24rem;
+    .features-hero-img {
+      position: absolute;
+      bottom: -24rem;
+      height: 24rem;
+
+      left: 0;
+      right: 0;
+      background: url("../../assets/features/mobile/hero.jpg");
+      background-size: cover;
+      background-position: bottom center;
+    }
+  }
+}

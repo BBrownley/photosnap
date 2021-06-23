@@ -7,11 +7,13 @@
 @import "./layout/header";
 @import "./layout/footer";
 
-@import "./pages/home";
-@import "./pages/stories";
-
 @import "./components/buttons";
 @import "./components/stories-container";
 @import "./components/story";
 @import "./components/features-container";
 @import "./components/feature";
+@import "./components/hero-section";
+
+@import "./pages/home";
+@import "./pages/stories";
+@import "./pages/features";
