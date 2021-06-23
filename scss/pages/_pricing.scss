@@ -183,3 +183,35 @@
     }
   }
 }
+
+.compare {
+  text-align: center;
+  .chart {
+    // border: 2px dashed;
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+    display: inline-block;
+    width: 46rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    .chart-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 2.125rem;
+      padding-right: 0;
+      border-bottom: 0.125rem solid #e3e3e3;
+      &.primary {
+        border-color: black;
+      }
+      h4,
+      .check-container {
+        flex: 1;
+        text-align: center;
+      }
+      h4:nth-of-type(1) {
+        flex: 2;
+        text-align: left;
+      }
+    }
+  }
+}
