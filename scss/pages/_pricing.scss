@@ -75,6 +75,9 @@
       }
     }
   }
+  @media (max-width: 770px) {
+    margin-bottom: 0;
+  }
 }
 
 .pricing-cards {
@@ -133,7 +136,7 @@
       flex-direction: row;
       padding: 2.625rem;
       h2 {
-        margin-right: -.5rem;
+        margin-right: -0.5rem;
       }
       .btn--main {
         display: none;
@@ -218,6 +221,70 @@
       h4:nth-of-type(1) {
         flex: 2;
         text-align: left;
+      }
+    }
+  }
+  @media (max-width: 770px) {
+    h2 {
+      display: none;
+    }
+    .chart {
+      padding: 2rem;
+      width: 100%;
+      margin-bottom: 4rem;
+      .chart-row {
+        position: relative;
+        &.primary h4:not(:first-of-type) {
+          display: none;
+        }
+        &.primary h4:first-of-type {
+          bottom: 1.25rem;
+        }
+        h4 {
+          width: 100%;
+          position: absolute;
+        }
+        .check-container {
+          margin-top: 4rem;
+          text-align: left;
+          position: relative;
+          &:nth-of-type(1) {
+            &::before {
+              content: "basic";
+              text-transform: uppercase;
+              position: absolute;
+              top: -2rem;
+              color: #909090;
+              font-size: 10px;
+              letter-spacing: 1.67px;
+              font-weight: bold;
+            }
+          }
+          &:nth-of-type(2) {
+            &::before {
+              content: "pro";
+              text-transform: uppercase;
+              position: absolute;
+              top: -2rem;
+              color: #909090;
+              font-size: 10px;
+              letter-spacing: 1.67px;
+              font-weight: bold;
+            }
+          }
+          &:nth-of-type(3) {
+            &::before {
+              content: "business";
+              text-transform: uppercase;
+              position: absolute;
+              top: -2rem;
+              color: #909090;
+              font-size: 10px;
+              letter-spacing: 1.67px;
+              font-weight: bold;
+            }
+          }
+        }
       }
     }
   }
