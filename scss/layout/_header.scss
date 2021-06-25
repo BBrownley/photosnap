@@ -24,7 +24,7 @@
   }
 
   .mobile-menu {
-    position: absolute;
+    position: sticky;
   }
 
   @media (max-width: 1300px) {
@@ -34,6 +34,10 @@
 
   @media (max-width: 750px) {
     padding: 2rem 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    background-color: white;
     .navigation,
     .btn-1 {
       display: none;
@@ -76,6 +80,20 @@
   @media (max-width: 750px) {
     &.opened {
       display: block;
+      position: sticky;
+      top: 5rem;
+      z-index: 10000;
+      background-color: white;
+    }
+    .close {
+      position: absolute;
+      bottom: -100vh;
+      left: 0;
+      right: 0;
+      height: 100vh;
+      content: " ";
+
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
 }
