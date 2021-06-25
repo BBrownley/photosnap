@@ -1,0 +1,25 @@
+{
+  "name": "photosnap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBrownley/photosnap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bbrownley.github.io/photosnap",
+  "bugs": {
+    "url": "https://github.com/BBrownley/photosnap/issues"
+  },
+  "homepage": "https://github.com/BBrownley/photosnap#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
