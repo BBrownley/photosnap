@@ -132,6 +132,9 @@
       height: 16.875rem;
       flex-direction: row;
       padding: 2.625rem;
+      h2 {
+        margin-right: -.5rem;
+      }
       .btn--main {
         display: none;
       }
@@ -167,6 +170,9 @@
       > * {
         text-align: center;
       }
+      h2 {
+        margin-right: 0;
+      }
       .btn--tablet {
         display: none;
       }
@@ -197,7 +203,7 @@
     .chart-row {
       display: flex;
       justify-content: space-between;
-      padding: 2.125rem;
+      padding: 1.5rem;
       padding-right: 0;
       border-bottom: 0.125rem solid #e3e3e3;
       &.primary {
@@ -207,6 +213,7 @@
       .check-container {
         flex: 1;
         text-align: center;
+        line-height: 25px;
       }
       h4:nth-of-type(1) {
         flex: 2;
