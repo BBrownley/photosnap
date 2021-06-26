@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.min.css" />
+    <title>Photosnap</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/"><div class="branding-img"></div></a>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="/stories.html"><h4>Stories</h4></a>
+          </li>
+          <li>
+            <a href="/features.html"><h4>Features</h4></a>
+          </li>
+          <li>
+            <a href="/pricing.html"><h4>Pricing</h4></a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-1"><h4>Get an invite</h4></button>
+      <div class="menu-icon"></div>
+    </header>
+    <div class="mobile-menu">
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="/stories.html"><h4>Stories</h4></a>
+          </li>
+          <li>
+            <a href="/features.html"><h4>Features</h4></a>
+          </li>
+          <li>
+            <a href="/pricing.html"><h4>Pricing</h4></a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-1"><h4>Get an invite</h4></button>
+      <div class="close"></div>
+    </div>
+    <main>
+      <section class="hero-section pricing-hero">
+        <div class="container">
+          <div class="info-wrapper">
+            <div class="section-info accent-border">
+              <div class="mobile-accent-border"></div>
+              <h2 class="large">Pricing</h2>
+              <p>
+                Photosnap is a platform for photographers and visual
+                storytellers. It’s the simple way to create and share your
+                photos.
+              </p>
+            </div>
+          </div>
+          <div class="pricing-hero-img"></div>
+        </div>
+      </section>
+      <section class="prices">
+        <div class="wrapper">
+          <div class="toggle-container">
+            <p class="active" id="monthly">Monthly</p>
+            <div class="toggle">
+              <div class="circle"></div>
+            </div>
+            <p id="yearly">Yearly</p>
+          </div>
+        </div>
+        <div class="pricing-cards">
+          <div class="card">
+            <div class="card__desc">
+              <div>
+                <h2>Basic</h2>
+                <p>
+                  Includes basic usage of our platform. Recommended for new and
+                  aspiring photographers.
+                </p>
+              </div>
+              <button class="btn-1 btn--tablet">Pick plan</button>
+            </div>
+            <div class="card__price">
+              <h2 class="large" id="basic-price">$19.00</h2>
+              <p>per <span class="pricing-timespan">month</span></p>
+            </div>
+            <button class="btn-1 btn--main">Pick plan</button>
+          </div>
+          <div class="card pro">
+            <div class="card__desc">
+              <div>
+                <h2>Pro</h2>
+                <p>
+                  More advanced features available. Recommended for photography
+                  veterans and professionals.
+                </p>
+              </div>
+              <button class="btn-3 btn--tablet">Pick plan</button>
+            </div>
+            <div class="card__price">
+              <h2 class="large" id="pro-price">$39.00</h2>
+              <p>per <span class="pricing-timespan">month</span></p>
+            </div>
+            <button class="btn-3 btn--main">Pick plan</button>
+          </div>
+          <div class="card">
+            <div class="card__desc">
+              <div>
+                <h2>Business</h2>
+                <p>
+                  Additional features available such as more detailed metrics.
+                  Recommended for business owners.
+                </p>
+              </div>
+              <button class="btn-1 btn--tablet">Pick plan</button>
+            </div>
+            <div class="card__price">
+              <h2 class="large" id="business-price">$99.00</h2>
+              <p>per <span class="pricing-timespan">month</span></p>
+            </div>
+            <button class="btn-1 btn--main">Pick plan</button>
+          </div>
+        </div>
+      </section>
+      <section class="compare">
+        <h2 class="large">Compare</h2>
+        <div class="chart">
+          <ul>
+            <li class="chart-row primary">
+              <h4>The features</h4>
+              <h4>Basic</h4>
+              <h4>Pro</h4>
+              <h4>Business</h4>
+            </li>
+            <li class="chart-row">
+              <h4>Unlimited story posting</h4>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Unlimited photo upload</h4>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Embedding custom content</h4>
+              <div class="check-container"></div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Customize metadata</h4>
+              <div class="check-container"></div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Advanced metrics</h4>
+              <div class="check-container"></div>
+              <div class="check-container"></div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Photo downloads</h4>
+              <div class="check-container"></div>
+              <div class="check-container"></div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Search engine indexing</h4>
+              <div class="check-container"></div>
+              <div class="check-container"></div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+            <li class="chart-row">
+              <h4>Custom analytics</h4>
+              <div class="check-container"></div>
+              <div class="check-container"></div>
+              <div class="check-container">
+                <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="beta">
+        <div class="mobile-accent-border"></div>
+        <div class="wrapper">
+          <div class="container">
+            <div>
+              <h2 class="large">We're in beta. Get your invite today!</h2>
+            </div>
+            <div>
+              <button class="btn-4">
+                Get an invite
+                <img
+                  src="./assets/shared/desktop/arrow.svg"
+                  class="svg-arrow"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="branding-img">
+            <!-- For filtering part of img -->
+            <div class="branding-img branding-img__inner"></div>
+          </div>
+          <nav class="secondary-footer-nav">
+            <ul>
+              <li>
+                <a href="#"><h4>Home</h4></a>
+              </li>
+              <li>
+                <a href="#"><h4>Stories</h4></a>
+              </li>
+              <li>
+                <a href="#"><h4>Features</h4></a>
+              </li>
+              <li>
+                <a href="#"><h4>Pricing</h4></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials">
+            <div>
+              <img src="./assets/shared/desktop/facebook.svg" alt="facebook" />
+            </div>
+            <div>
+              <img src="./assets/shared/desktop/youtube.svg" alt="youtube" />
+            </div>
+            <div>
+              <img src="./assets/shared/desktop/twitter.svg" alt="twitter" />
+            </div>
+            <div>
+              <img
+                src="./assets/shared/desktop/pinterest.svg"
+                alt="pinterest"
+              />
+            </div>
+            <div>
+              <img
+                src="./assets/shared/desktop/instagram.svg"
+                alt="instagram"
+              />
+            </div>
+          </div>
+        </div>
+
+        <nav class="main-footer-nav">
+          <ul>
+            <li>
+              <a href="#"><h4>Home</h4></a>
+            </li>
+            <li>
+              <a href="#"><h4>Stories</h4></a>
+            </li>
+            <li>
+              <a href="#"><h4>Features</h4></a>
+            </li>
+            <li>
+              <a href="#"><h4>Pricing</h4></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="invite-copyright">
+          <button class="btn-4">
+            Get an invite<img
+              src="./assets/shared/desktop/arrow.svg"
+              alt=""
+              class="svg-arrow"
+            />
+          </button>
+          <p>Copyright 2021. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
