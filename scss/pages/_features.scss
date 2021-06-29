@@ -2,13 +2,13 @@
   padding-bottom: 34%;
   position: relative;
   .features-hero-img {
-    background: url("../../assets/features/desktop/hero.jpg");
+    background: url("assets/features/desktop/hero.jpg");
     background-size: cover;
   }
   @media (max-width: 1150px) {
     padding-bottom: 59%;
     .features-hero-img {
-      background: url("../../assets/features/tablet/hero.jpg");
+      background: url("assets/features/tablet/hero.jpg");
       background-size: cover;
     }
   }
@@ -24,7 +24,7 @@
 
       left: 0;
       right: 0;
-      background: url("../../assets/features/mobile/hero.jpg");
+      background: url("assets/features/mobile/hero.jpg");
       background-size: cover;
       background-position: bottom center;
     }

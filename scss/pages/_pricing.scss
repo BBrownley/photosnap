@@ -1,20 +1,20 @@
 .pricing-hero {
   padding-bottom: 34%;
   .pricing-hero-img {
-    background: url("../../assets/pricing/desktop/hero.jpg");
+    background: url("assets/pricing/desktop/hero.jpg");
     background-size: cover;
   }
   @media (max-width: 1150px) {
     padding-bottom: 59%;
     .pricing-hero-img {
-      background: url("../../assets/pricing/tablet/hero.jpg");
+      background: url("assets/pricing/tablet/hero.jpg");
       background-size: cover;
     }
   }
   @media (max-width: 680px) {
     padding-bottom: 0;
     .pricing-hero-img {
-      background: url("../../assets/pricing/mobile/hero.jpg");
+      background: url("assets/pricing/mobile/hero.jpg");
       background-size: cover;
       background-position: bottom center;
       left: 0;

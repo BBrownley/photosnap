@@ -15,14 +15,12 @@
 .featured-story-wrapper {
   padding-bottom: 45%;
   position: relative;
-  background: url("../../assets/stories/desktop/moon-of-appalacia.jpg")
-    no-repeat;
+  background: url("assets/stories/desktop/moon-of-appalacia.jpg") no-repeat;
   background-size: cover;
   color: white;
 
   @media (max-width: 1200px) {
-    background: url("../../assets/stories/tablet/moon-of-appalacia.jpg")
-      no-repeat;
+    background: url("assets/stories/tablet/moon-of-appalacia.jpg") no-repeat;
     background-size: cover;
     padding-bottom: 84%;
     .featured-story {
@@ -30,8 +28,7 @@
     }
   }
   @media (max-width: 700px) {
-    background: url("../../assets/stories/mobile/moon-of-appalacia.jpg")
-      no-repeat;
+    background: url("assets/stories/mobile/moon-of-appalacia.jpg") no-repeat;
     background-size: cover;
     padding-bottom: 84%;
     .featured-story {
